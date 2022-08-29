@@ -27,8 +27,7 @@ for (itm in ls()) {
         quote=F)
 }
 
-rm(list=(ls()[ls()!="sinistrosRecifeRaw"]))
+rm(list = c('sinistrosRecife2019Raw', 'sinistrosRecife2020Raw', 'sinistrosRecife2021Raw', 'colunas_iguais'))
 
-rm(list=(ls()[ls()!="naZero"]))
 
 #o objeto que mais usou memória: sinistrosRecife2019Raw (5851088)
